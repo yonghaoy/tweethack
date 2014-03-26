@@ -6,7 +6,19 @@ Command lining the twitters with twython.  Search twitter and tweet from your co
 ## Super Easy Command Line Tweeting
 
 1. Clone this repo
-2. `pip install twython`
+
+```
+git clone https://github.com/silshack/tweethack.git
+```
+
+Or use ssh but if you use ssh why are you reading the how to?
+
+2. Make sure you've got Twython
+
+```
+pip install twython
+```
+
 3. `cd` into the new directory. Add a file called `creds.py` with your App's key and secret:
 
 ```
