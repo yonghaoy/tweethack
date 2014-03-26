@@ -11,7 +11,7 @@ if yn == "y":
     OAUTH_TOKEN = auth['oauth_token'] 
     OAUTH_TOKEN_SECRET = auth['oauth_token_secret']
     
-    print "Go here and find the PIN:"
+    print "Log in to the account you want to tweet from, then go here and find the PIN:"
     print auth['auth_url']
     
     oauth_verifier = raw_input('Enter your pin:')

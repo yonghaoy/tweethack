@@ -1,10 +1,7 @@
 from twython import Twython
 from creds import *
 
-
-twitter = Twython(APP_KEY, APP_SECRET,
-                  FINAL_OAUTH_TOKEN, FINAL_OAUTH_TOKEN_SECRET)
-
+twitter = Twython(APP_KEY, APP_SECRET, FINAL_OAUTH_TOKEN, FINAL_OAUTH_TOKEN_SECRET)
 
 quit = ""
   
