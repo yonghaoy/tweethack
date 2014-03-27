@@ -1,3 +1,7 @@
+"""
+Extracted source from https://pypi.python.org/pypi/cleverbot/0.1.1
+"""
+
 from hashlib import md5
 import pprint
 import urllib, urllib2
@@ -79,16 +83,18 @@ class Cleverbot:
         # Add the current question to the conversation log
         self.conversation.append(q)
 
-        parsed = self._parse(resp)
+        #parsed = self._parse(resp)
 
         # Set data as appropriate
-        if self.data['sessionid'] != '':
-            self.data['sessionid'] = parsed['conversation_id']
+        #if self.data['sessionid'] != '':
+        #    self.data['sessionid'] = parsed['conversation_id']
 
         # Add Cleverbot's reply to the conversation log
-        self.conversation.append(parsed['answer'])
+       # self.conversation.append(parsed['answer'])
 
-        return parsed['answer']
+        #return parsed['answer']
+        return resp
+        
 
     def _send(self):
         """POST the user's question and all required information to the 
