@@ -5,6 +5,7 @@
 #  with some updates by Jeff Epler <jepler@inetnebr.com>
 #  hacked into a module and updated by Jez Higgins <jez@jezuk.co.uk>
 #  last revised: 28 February 2005
+#  Updated by Elliott Hauser March 26th 2014
 #----------------------------------------------------------------------
 
 import string
