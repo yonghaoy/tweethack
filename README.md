@@ -1,6 +1,8 @@
 tweethack
 =========
 
+This is INLS 560's exercise, I folk from our class website, and add some functions
+
 Command lining the twitters with twython.  Search twitter and tweet from your command line in 5 hacky steps.
 
 ## Super Easy Command Line Tweeting
@@ -8,7 +10,7 @@ Command lining the twitters with twython.  Search twitter and tweet from your co
 **1.** Clone this repo
 
 ```
-git clone https://github.com/silshack/tweethack.git
+git clone https://github.com/yonghaoy/tweethack.git
 ```
 
 Or use ssh but if you use ssh why are you reading the how to?
