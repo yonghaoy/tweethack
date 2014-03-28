@@ -3,6 +3,8 @@ tweethack
 
 This is INLS 560's exercise, I folk from our class website, and add some functions
 
+The extra method I add: allow users to tweet with media.
+
 Command lining the twitters with twython.  Search twitter and tweet from your command line in 5 hacky steps.
 
 ## Super Easy Command Line Tweeting
